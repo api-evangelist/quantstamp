@@ -1,8 +1,26 @@
 aid: quantstamp
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantstamp.png
 name: Quantstamp
-description: 'Quantstamp is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Quantstamp is a blockchain security firm founded in 2017 that provides expert Web3
+  security assessments, including smart contract audits, infrastructure and Layer 2 audits, zero-knowledge
+  circuit reviews, and economic exploit analysis. The company has conducted over 1,300 audits across more
+  than 60 blockchain ecosystems and helped secure billions of dollars in digital assets. Quantstamp
+  publishes public audit reports through its certificate portal, maintains open-source Web3 security
+  tooling on GitHub (L2 block explorer standards, ERC-4337 checkers, halo2 zero-knowledge libraries),
+  and runs a research blog. Quantstamp is a services and consulting provider rather than an API-first
+  platform, and does not currently publish a first-party developer API or OpenAPI specification. Backed
+  by SoftBank Vision Fund.'
 url: https://raw.githubusercontent.com/api-evangelist/quantstamp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Blockchain
+- Security
+- Smart Contracts
+- Web3
+- Auditing
+- Cryptography
 apis: []
+common:
+- type: DomainSecurity
+  url: security/quantstamp-domain-security.yml
+- type: Website
+  url: https://quantstamp.com
+- type: DeveloperPortal
+  url: https://quantstamp.com
+- type: GitHubOrganization
+  url: https://github.com/quantstamp
+- type: Blog
+  url: https://quantstamp.com/blog
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
