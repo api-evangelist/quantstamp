@@ -41,7 +41,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Enterprise
@@ -53,6 +53,8 @@ tags:
 - Cryptography
 apis: []
 common:
+- url: https://quantstamp.com/rss.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/quantstamp-domain-security.yml
 - type: Website
